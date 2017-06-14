@@ -1,0 +1,1 @@
+a:4:{s:10:"buffersize";s:30:"Tamaño de buffer de escritura";s:10:"pluginname";s:19:"Bitácora estándar";s:15:"pluginname_desc";s:99:"Un plugin de bitácora almacena entradas de bitácora dentro de una tabla de BasedeDatos de Moodle.";s:11:"taskcleanup";s:32:"Limpieza de tablas de bitácoras";}

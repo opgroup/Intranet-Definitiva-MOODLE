@@ -1,0 +1,312 @@
+<?php
+
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'bigbluebuttonbn', language 'es_mx', branch 'MOODLE_33_STABLE'
+ *
+ * @package   bigbluebuttonbn
+ * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['activityoverview'] = 'Usted tiene futuras sesiones de Bigbluebuttonbn';
+$string['bbbduetimeoverstartingtime'] = 'La hora en que termina esta actividad debe ser posterior a la hora en que empieza';
+$string['bbbdurationwarning'] = 'La duración máxima para esta sesión es de  %duration% minutos.';
+$string['bbbrecordwarning'] = 'Esta sesión se puede grabar.';
+$string['bigbluebuttonbn'] = 'BigBlueButton';
+$string['bigbluebuttonbn:addinstance'] = 'Agregar una nueva sesión';
+$string['bigbluebuttonbn:join'] = 'Ingresar a una sesión';
+$string['bigbluebuttonbn:managerecordings'] = 'Gestionar grabaciones';
+$string['bigbluebuttonbn:moderate'] = 'Moderar una sesión';
+$string['config_extended_capabilities'] = 'Configuración para capacidades externas';
+$string['config_extended_capabilities_description'] = 'La configuración para capacidades extendidas cuando el servidor BigBlueButton las ofrece.';
+$string['config_extended_feature_recordingready_enabled'] = 'Función de notificaciones cuando la grabación está disponible se encuentra habilitada';
+$string['config_extended_feature_recordingready_enabled_description'] = 'Función de notificaciones cuando la grabación está disponible se encuentra habilitada';
+$string['config_extended_feature_uidelegation_enabled'] = 'Delegación de Interfaz del usuario está habilitada';
+$string['config_extended_feature_uidelegation_enabled_description'] = 'Estas configuraciones habilitan o deshabilitan la delegación de Interfaz del Usuario al servidor BigBlueButton.';
+$string['config_feature_importrecordings'] = 'Configuración para la característica de \'Importar grabaciones\'';
+$string['config_feature_importrecordings_description'] = 'Estas configuraciones son específicas de la característica';
+$string['config_feature_importrecordings_enabled'] = 'Importar grabaciones habilitada';
+$string['config_feature_importrecordings_enabled_description'] = 'Cuando esto y la característica de grabación están ambas habilitadas, es posible importar grabaciones desde diferentes cursos hacia una actividad.';
+$string['config_feature_importrecordings_from_deleted_activities_enabled'] = 'Importar grabaciones de actividades eliminadas habilitada';
+$string['config_feature_importrecordings_from_deleted_activities_enabled_description'] = 'Cuando se habilita esto y la característica de importar grabación, es posible importar grabaciones desde actividades que ya no están más en el curso.';
+$string['config_feature_preuploadpresentation'] = 'Configuración para la función de "Pre-cargar presentación"';
+$string['config_feature_preuploadpresentation_description'] = 'Estas configuraciones habilitan o deshabilitan opciones en la Interfaz del Usuario y también definen valores por defecto para estas opciones. La función es valida solamente si el servidor Moodle es accesibe para BigBlueButton.';
+$string['config_feature_preuploadpresentation_enabled'] = 'Función de Pre-cargar presentación habilitada';
+$string['config_feature_preuploadpresentation_enabled_description'] = 'La función de pre-cargar presentación está habilitada en la Interfaz del Usuario cuando se añade o actualiza una sala o conferencia.';
+$string['config_feature_recording'] = 'Configuración para función de "Grabando"';
+$string['config_feature_recording_default'] = 'Función de Grabando habilitada por defecto';
+$string['config_feature_recording_default_description'] = 'Si se habilita, las sesiones creadas en BigBlueButton tendrán capacidades para grabar.';
+$string['config_feature_recording_description'] = 'Estas configuraciones son específicas para cada función';
+$string['config_feature_recording_editable'] = 'La función de Grabando puede ser editada';
+$string['config_feature_recording_editable_description'] = 'Si se activa, la interfaz incluye una opción para habilitar y deshabilitar la función de grabación.';
+$string['config_feature_recording_icons_enabled'] = 'Íconos para gestión de grabando';
+$string['config_feature_recording_icons_enabled_description'] = 'Cuando se habilita, el panel de gestión de grabación muestra íconos para las acciones de publicar/despublicar y eliminar.';
+$string['config_feature_recordingtagging'] = 'Configuración para función de "Marcar (tag) Grabación"';
+$string['config_feature_recordingtagging_default'] = 'Marcado (tagging) de grabación habilitado por defecto';
+$string['config_feature_recordingtagging_default_description'] = 'La función de marcar (tag) grabación está habilitada por defecto cuando se añade una nueva sala o conferencia<br>Cuando se habilita esta función, una página intermedia que permite introducir una descripción y etiquetas (tags) para la sesión BigBlueButton se le muestra al primer moderador que se une. La descripción y las marcas (tags) después son usadas para identificar la grabación en la lista.';
+$string['config_feature_recordingtagging_description'] = 'Estas configuraciones son específicas de la función';
+$string['config_feature_recordingtagging_editable'] = 'La función de marcar (tag) Grabación puede ser editada';
+$string['config_feature_recordingtagging_editable_description'] = 'El valor de marca (tagging) de la grabación puede editarse cuando se añade o actualiza la sala o conferencia.';
+$string['config_feature_sendnotifications'] = 'Configuración para la función de "Enviar notificaciones"';
+$string['config_feature_sendnotifications_description'] = 'Estas configuraciones habilitan o deshabilitan opciones en la Interfaz del Usuario y también definen valores para esta sopciones.';
+$string['config_feature_sendnotifications_enabled'] = 'Función para enviar notificaciones habilitada';
+$string['config_feature_sendnotifications_enabled_description'] = 'La función de enviar notificaciones está habilitada en la Interfaz del Usuario cuando se añade o actualiza la sala o conferencia.';
+$string['config_feature_userlimit'] = 'Configuración para función de "Límite de usuario"';
+$string['config_feature_userlimit_default'] = 'Límite de usuario habilitado por defecto';
+$string['config_feature_userlimit_default_description'] = 'El número de usuarios permitidos por sesión por defecto cuando se añade una nueva sala o conferencia. Si el número se configura a 0, no se establece límite alguno.';
+$string['config_feature_userlimit_description'] = 'Estas configuraciones habilitan o deshabilitan opciones en la Interfaz del Usuario y también definen valores por defecto para estas opciones.';
+$string['config_feature_userlimit_editable'] = 'La función de límite de usuario puede ser editada';
+$string['config_feature_userlimit_editable_description'] = 'El valor límite del usuario por defecto puede editarse cuando se añade o actualiza una sala o conferencia.';
+$string['config_feature_voicebridge'] = 'Configuración para función de "Puente de voz"';
+$string['config_feature_voicebridge_description'] = 'Estas configuraciones habilitan o deshabilitan opciones en la Interfaz del Usuario y también definen valores por defecto para estas opciones.';
+$string['config_feature_voicebridge_editable'] = 'El puente de voz de la conferencia puede ser editado';
+$string['config_feature_voicebridge_editable_description'] = 'El número del puente de conferencia de voz puede asignarse permanentemente a una conferencia en sala. Cuando se asigna, el número no puede usarse por ninguna otra sala o conferencia.';
+$string['config_feature_waitformoderator'] = 'Configuración para la función de "Esperar al moderador"';
+$string['config_feature_waitformoderator_cache_ttl'] = 'TTL (time to live) de caché para esperar al moderador (segundos)';
+$string['config_feature_waitformoderator_cache_ttl_description'] = 'Para soportar una carga fuerte de clientes, este plugin hace uso de un caché. Este parámetro define el tiempo que se conservará el caché antes de que la siguiente solicitud sea enviada al servidor BigBlueButton.';
+$string['config_feature_waitformoderator_default'] = 'Espaerar al moderador por defecto';
+$string['config_feature_waitformoderator_default_description'] = 'La función de esperar al moderador está habilitada por defecto cuando se añade una sala o conferencia nueva.';
+$string['config_feature_waitformoderator_description'] = 'Estas configuraciones son específicas de la función';
+$string['config_feature_waitformoderator_editable'] = 'La función de esperar al moderador puede ser editada';
+$string['config_feature_waitformoderator_editable_description'] = 'El esperar por defecto al moderador puede editarse cuando se añade o actualiza una sala o conferencia.';
+$string['config_feature_waitformoderator_ping_interval'] = 'Esperar el \'ping\' del moderador (segundos)';
+$string['config_feature_waitformoderator_ping_interval_description'] = 'Cuando se habilita la función de esperar al moderador, el cliente hace \'ping\' para conocer el estatus de la sesión cada [número de] segundos. Este parámetro define el intervalo para solicitudes hechas al servidor Moodle.';
+$string['config_general'] = 'Configuración general';
+$string['config_general_description'] = 'Estas configuraciones son usadas <b>siempre</b>';
+$string['config_permission'] = 'Configuración de permiso';
+$string['config_permission_description'] = 'Estas configuraciones definen los permisos por defecto para las salas o conferencias creadas.';
+$string['config_permission_moderator_default'] = 'Moderador por defecto';
+$string['config_permission_moderator_default_description'] = 'Esta regla es usada por defecto cuando se añade una sala o conferencia nueva.';
+$string['config_scheduled'] = 'Configuración para "Sesiones agendadas"';
+$string['config_scheduled_description'] = 'Estas configuraciones definen algunos de los comportamientos por defecto para las sesiones agendadas.';
+$string['config_scheduled_duration_compensation'] = 'Tiempo compensatorio (minutos)';
+$string['config_scheduled_duration_compensation_description'] = 'Minutos añadidos al cierre agendado al calcular la duración.';
+$string['config_scheduled_duration_enabled'] = 'Calcular duración habilitada';
+$string['config_scheduled_duration_enabled_description'] = 'La duración de una sesión agendada es calaculada basándose en las horas de apertura y cierre.';
+$string['config_scheduled_pre_opening'] = 'Accesible antes de la hora de apertura (minutos)';
+$string['config_scheduled_pre_opening_description'] = 'El tiempo en minutos para que la sesión sea accesible antes de que sea la hora de apertura agendada.';
+$string['config_server_url'] = 'URL del servidor BigBlueButton';
+$string['config_server_url_description'] = 'La URL de su servidor BigBlueButton debe terminar en  /bigbluebutton/. (Esta URL por defecto es para un servidor BigBlueButton proporcionado por Blindside Networks que Usted puede usar para pruebas.)';
+$string['config_shared_secret'] = 'Clave secreta de BigBlueButton';
+$string['config_shared_secret_description'] = 'La sal de seguridad de su servidor BigBlueButton. (esta sal por defecto es para un servidor BigBlueButton proporcionado por Blindside Networks que Usted puede usar para pruebas.)';
+$string['config_warning_curl_not_installed'] = 'Esta función requiere que la extensión CURL para php  se encuentre instalada y habilitada. La configuración de estos parameteros será posible solo si esta condición se cumple.';
+$string['email_body_notification_meeting_by'] = 'por';
+$string['email_body_notification_meeting_description'] = 'Descripción';
+$string['email_body_notification_meeting_details'] = 'Detalles';
+$string['email_body_notification_meeting_end_date'] = 'Fecha de Fin';
+$string['email_body_notification_meeting_has_been'] = 'ha sido';
+$string['email_body_notification_meeting_start_date'] = 'Fecha de Inicio';
+$string['email_body_notification_meeting_title'] = 'Título';
+$string['email_body_recording_ready_for'] = 'Grabación de';
+$string['email_body_recording_ready_is_ready'] = 'está lista';
+$string['email_footer_sent_by'] = 'Este mensaje automático de notificación fue enviado por';
+$string['email_footer_sent_from'] = 'desde el curso';
+$string['email_title_notification_has_been'] = 'ha sido';
+$string['ends_at'] = 'Termina';
+$string['event_activity_created'] = 'Actividad BigBlueButtonBN creada';
+$string['event_activity_deleted'] = 'Actividad BigBlueButtonBN eliminada';
+$string['event_activity_modified'] = 'Actividad BigBlueButtonBN modificada';
+$string['event_activity_viewed'] = 'Actividad BigBlueButtonBN visualizada';
+$string['event_activity_viewed_all'] = 'Configuración de la actividad BigBlueButtonBN visualizada';
+$string['event_meeting_created'] = 'Sesión BigBlueButtonBN creada';
+$string['event_meeting_ended'] = 'Se ha finalizado la sesión BigBlueButtonBN de forma deliberada';
+$string['event_meeting_joined'] = 'Ingreso a sesión de BigBlueButtonBN';
+$string['event_meeting_left'] = 'Salida de sesión BigBlueButtonBN';
+$string['event_recording_deleted'] = 'Grabación eliminada';
+$string['event_recording_imported'] = 'Grabación importada';
+$string['event_recording_published'] = 'Grabación publicada';
+$string['event_recording_unpublished'] = 'Grabación oculta';
+$string['general_error_unable_connect'] = 'No se pudo conectar. Por favor verifique la URL del servidor BigBlueButtton y que el servidor BigBlueButton esté operando.';
+$string['index_confirm_end'] = '¿Quiere entrar a la clase virtual?';
+$string['index_disabled'] = 'deshabilitada';
+$string['index_enabled'] = 'habilitada';
+$string['index_ending'] = 'Terminando el salón de la clase virtual... por favor espere';
+$string['index_error_checksum'] = 'Hubo un error de la suma de comprobación. Asegúrese de haber escrito la sal correcta.';
+$string['index_error_forciblyended'] = 'No se pudo ingresar a esta sesión debido a que fue terminada manualmente.';
+$string['index_error_unable_display'] = 'No se pueden mostrar las sessiones. Por favor revise la URL del servidor BigBlueButtton  y que el servidor BigBlueButton esté operando.';
+$string['index_heading'] = 'Salas BigBlueButton';
+$string['index_heading_actions'] = 'Acciones';
+$string['index_heading_group'] = 'Grupo';
+$string['index_heading_moderator'] = 'Moderadores';
+$string['index_heading_name'] = 'Sala';
+$string['index_heading_recording'] = 'Grabación';
+$string['index_heading_users'] = 'Usuarios';
+$string['index_heading_viewer'] = 'Observadores';
+$string['mod_form_block_general'] = 'Configuraciones generales';
+$string['mod_form_block_participants'] = 'Participantes';
+$string['mod_form_block_presentation'] = 'Contenido de la Presentación';
+$string['mod_form_block_record'] = 'Configuraciones de grabación';
+$string['mod_form_block_schedule'] = 'Agenda para sesión';
+$string['mod_form_field_closingtime'] = 'Accesso cerrado';
+$string['mod_form_field_conference_name'] = 'Nombre de Conferencia';
+$string['mod_form_field_duration'] = 'Duración';
+$string['mod_form_field_duration_help'] = 'Fijar la duración para una sesión establecerá el tiempo máximo para mantener activa una sesión antes de que termine la grabación';
+$string['mod_form_field_intro'] = 'Descripción';
+$string['mod_form_field_intro_help'] = 'Una breve descripción de la sala o conferencia';
+$string['mod_form_field_name'] = 'Nombre de salón de clase virtual';
+$string['mod_form_field_notification'] = 'Enviar notificación';
+$string['mod_form_field_notification_created_help'] = 'Enviarles una notificación a los usuarios inscritos para hacerles saber que esta actividad ha sido creada';
+$string['mod_form_field_notification_help'] = 'Enviarles una notificación a los usuarios inscritos para hacerles saber que esta actividad ha sido creada o modificada';
+$string['mod_form_field_notification_modified_help'] = 'Enviarles una notificación a los usuarios inscritos para hacerles saber que esta actividad ha sido modificada';
+$string['mod_form_field_notification_msg_at'] = 'en';
+$string['mod_form_field_notification_msg_created'] = 'creada';
+$string['mod_form_field_notification_msg_modified'] = 'modificada';
+$string['mod_form_field_openingtime'] = 'Acceso abierto';
+$string['mod_form_field_participant_add'] = 'Agregar participante';
+$string['mod_form_field_participant_bbb_role_moderator'] = 'Moderador';
+$string['mod_form_field_participant_bbb_role_viewer'] = 'Observador';
+$string['mod_form_field_participant_list'] = 'Lista de participantes';
+$string['mod_form_field_participant_list_action_add'] = 'Agregar';
+$string['mod_form_field_participant_list_action_remove'] = 'Eliminar';
+$string['mod_form_field_participant_list_text_as'] = 'como';
+$string['mod_form_field_participant_list_type_all'] = 'Todos los usuarios inscritos';
+$string['mod_form_field_participant_list_type_owner'] = 'Propietario';
+$string['mod_form_field_participant_list_type_role'] = 'Rol';
+$string['mod_form_field_participant_list_type_user'] = 'Usuario';
+$string['mod_form_field_participant_role_unknown'] = 'Desconocido';
+$string['mod_form_field_predefinedprofile'] = 'Perfil predefinido';
+$string['mod_form_field_predefinedprofile_help'] = 'Perfil predefinido';
+$string['mod_form_field_record'] = 'La sesión puede grabarse';
+$string['mod_form_field_recordingtagging'] = 'Activar interfaz para marcar (tag)';
+$string['mod_form_field_room_name'] = 'Nombre de la sala';
+$string['mod_form_field_userlimit'] = 'Límite de usuarios';
+$string['mod_form_field_userlimit_help'] = 'Número máximo de usuarios permitidos en una reunión. Si el límite se configura a 0 el número de usuarios será ilimitado.';
+$string['mod_form_field_voicebridge'] = 'Puente de voz [####]';
+$string['mod_form_field_voicebridge_format_error'] = 'Error de formato. Debe de ingresar un número entre 1 y 9999.';
+$string['mod_form_field_voicebridge_help'] = 'Número de la conferencia que los participantes pueden teclear para unirse a la conferencia de voz usando marcación. Debe escribirse un número entre 1 y 9999. Si el valor fuera 0 el número de puente-de-voz estático (static voicebridge) será ignorado y se generará un número aleatorio por BigBlueButton. Un número 7 precederá a los cuatro dígitos tecleados';
+$string['mod_form_field_voicebridge_notunique_error'] = 'No es un valor único. Este número está siendo usado por otra sala o conferencia.';
+$string['mod_form_field_wait'] = 'Esperar al moderaror';
+$string['mod_form_field_wait_help'] = 'Los espectadores deben de esperar hasta que un moderador ingrese a la sesión antes de que ellos puedan hacer lo mismo';
+$string['mod_form_field_welcome'] = 'Mensaje de bienvenida';
+$string['mod_form_field_welcome_default'] = '¡<br>Bienvenido a  <b>%%CONFNAME%%</b>!<br><br>Para entender como funciona BigBlueButton vea nuestros <a href="event:http://www.bigbluebutton.org/content/videos"><u>videos tutoriales</u></a>.<br><br>Para unir el puente de audio elija el ícono de los auriculares (esquina superior izquierda). <b>Por favor use audífonos para evitarles ruidos a los demás.</b>';
+$string['mod_form_field_welcome_help'] = 'Remplace el mensaje por defecto puesto por el servidor BigBlueButton. El mensaje puede incluir las siguientes palabras clave (%%CONFNAME%%, %%DIALNUM%%, %%CONFNUM%%) que serán sustituidas automáticamente, y también etiquetas HTML tales como <b>...</b> o <i></i>';
+$string['modulename'] = 'BigBlueButtonBN';
+$string['modulename_help'] = 'BigBlueButtonBN le permite crear dentro de Moodle enlaces hacia aulas en línea en tiempo real con salas que emplean BigBlueButton, un sistema de código abierto para conferencias web para la educación a distancia.
+
+Usando BigBlueButtonBN puede especificar el título, descripción, fecha del calendario (que le proporciona un rango de fechas para unirse a la sesión), grupos, y detalles acerca de la grabación de la sesión en línea.
+
+Para ver grabaciones posteriormente, añada un recurso RecordingsBN a este curso.';
+$string['modulenameplural'] = 'BigBlueButtonBN';
+$string['pluginadministration'] = 'Administración de BigBlueButton';
+$string['pluginname'] = 'BigBlueButtonBN';
+$string['predefined_profile_classroom'] = 'Salón de clases';
+$string['predefined_profile_collaborationroom'] = 'Sala de colaboración';
+$string['predefined_profile_conferenceroom'] = 'Sala de conferencia';
+$string['predefined_profile_default'] = 'Por defecto';
+$string['predefined_profile_scheduledsession'] = 'Sesión agendada';
+$string['serverhost'] = 'Nombre del Servidor';
+$string['started_at'] = 'Inició';
+$string['starts_at'] = 'inicia';
+$string['view_conference_action_end'] = 'Final de sesión';
+$string['view_conference_action_join'] = 'Ingresar a sesión';
+$string['view_error_bigbluebutton'] = 'BigBlueButton respondió con errores. {$a}';
+$string['view_error_create'] = 'El servidor BigBlueButton ha respondido con un mensaje de error, la sesión no pudo ser creada.';
+$string['view_error_import_no_courses'] = 'No hay cursos para buscarles grabaciones';
+$string['view_error_import_no_recordings'] = 'No hay grabaciones para importar en este curso.';
+$string['view_error_max_concurrent'] = 'El máximo número de reuniones concurrentes permitido ha sido alcanzado.';
+$string['view_error_no_group'] = 'Todavía no hay grupos configurados. Por favor haga los grupos antes de intentar unirse a la reunión.';
+$string['view_error_no_group_student'] = 'Usted todavía no se ha inscrito a un grupo. Por favor póngase en contacto con su Maestro o el Administrador.';
+$string['view_error_no_group_teacher'] = 'Todavía no se han configurado grupos. Por favor haga los grupos o contacte al Administrador.';
+$string['view_error_unable_join'] = 'No se pudo conectar al servidor BigBlueButton. Por favor revise la URL del servidor BigBlueButton y revise que el servidor BigBlueButton esté operando.';
+$string['view_error_unable_join_student'] = 'No se pudo conectar al servidor BigBlueButton. Por favor contacte a su Maestro o Administrador.';
+$string['view_error_unable_join_teacher'] = 'No se pudo conectar al servidor BigBlueButton. Por favor contacte al Administrador.';
+$string['view_error_url_missing_parameters'] = 'Hay parámetros que faltan en esta URL';
+$string['view_error_userlimit_reached'] = 'El número de usuarios permitidos en una reunión ha sido alcanzado';
+$string['view_groups_selection'] = 'Seleccione el grupo al que quiere unirse y confirme la acción.';
+$string['view_groups_selection_join'] = 'Ingresar';
+$string['view_groups_selection_warning'] = 'Hay una sala de conferencia para cada grupo, Si Usted tiene acceso a más de una, asegúrese de seleccionar la sala correcta.';
+$string['view_login_moderator'] = 'Ingresar como moderador...';
+$string['view_login_viewer'] = 'Ingresar como observador...';
+$string['view_message_conference_has_ended'] = 'Esta conferencia ha terminado.';
+$string['view_message_conference_in_progress'] = 'Esta conferencia está en progreso';
+$string['view_message_conference_not_started'] = 'Esta conferencia todavía no ha empezado.';
+$string['view_message_conference_room_ready'] = 'Esta sala de conferencia está lista . Puede ingresar a la sesión en este instante.';
+$string['view_message_conference_wait_for_moderator'] = 'Esperando a que se una un moderador.';
+$string['view_message_finished'] = 'Esta actividad se acabó';
+$string['view_message_has_joined'] = 'se ha unido';
+$string['view_message_have_joined'] = 'se han unido';
+$string['view_message_hour'] = 'hora';
+$string['view_message_hours'] = 'horas';
+$string['view_message_minute'] = 'minuto';
+$string['view_message_minutes'] = 'minutos';
+$string['view_message_moderator'] = 'moderador';
+$string['view_message_moderators'] = 'moderadores';
+$string['view_message_norecordings'] = 'No hay grabaciones para esta reunión';
+$string['view_message_notavailableyet'] = 'Esta sesión todavía no está disponible.';
+$string['view_message_room_closed'] = 'Esta sala está cerrada.';
+$string['view_message_room_open'] = 'Esta sala está abierta.';
+$string['view_message_room_ready'] = 'Esta sala está lista.';
+$string['view_message_session_has_user'] = 'Hay';
+$string['view_message_session_has_users'] = 'Hay';
+$string['view_message_session_no_users'] = 'No hay usuarios en esta sesión';
+$string['view_message_session_running_for'] = 'Esta sesión ha estado activa por';
+$string['view_message_session_started_at'] = 'Esta sesión inició a las';
+$string['view_message_tab_close'] = 'Esta pestaña/ventana debe cerrarse manualmente';
+$string['view_message_user'] = 'usuario';
+$string['view_message_users'] = 'usuarios';
+$string['view_message_viewer'] = 'espectador';
+$string['view_message_viewers'] = 'espectadores';
+$string['view_noguests'] = 'El módulo BigBlueButtonBN no está abierto para invitados';
+$string['view_nojoin'] = 'Usted no tiene un rol que le permita unirse a esta sesión.';
+$string['view_recording'] = 'grabación';
+$string['view_recording_actionbar'] = 'Barra de herramientas';
+$string['view_recording_activity'] = 'Actividad';
+$string['view_recording_button_import'] = 'Importar enlaces de grabación';
+$string['view_recording_button_return'] = 'Regresar';
+$string['view_recording_course'] = 'Curso';
+$string['view_recording_date'] = 'fecha';
+$string['view_recording_delete_confirmation'] = '¿Está seguro de eliminar esta  {$a}?';
+$string['view_recording_delete_confirmation_warning_p'] = 'Esta grabación tiene {$a} enlaces asociados que fueron importados en diferentes cursos o actividades. Si la grabación es eliminada, esos enlaces también serán eliminados';
+$string['view_recording_delete_confirmation_warning_s'] = 'Esta grabación tiene {$a} enlace que fue importado en un diferente curso o actividad. Si la grabación es eliminada, ese enlace también será eliminado';
+$string['view_recording_description'] = 'Descripción';
+$string['view_recording_duration'] = 'Duración';
+$string['view_recording_duration_min'] = 'min';
+$string['view_recording_format_presentation'] = 'presentación';
+$string['view_recording_format_video'] = 'video';
+$string['view_recording_import_confirmation'] = '¿Está Usted seguro de importar esta grabación?';
+$string['view_recording_length'] = 'Tiempo';
+$string['view_recording_link_warning'] = 'Este es un enlace que apunta hacia una grabación que fue creada en un curso o una actividad diferente';
+$string['view_recording_list_actionbar'] = 'Barra de Herramientas';
+$string['view_recording_list_actionbar_delete'] = 'Eliminar';
+$string['view_recording_list_actionbar_deleting'] = 'Eliminando';
+$string['view_recording_list_actionbar_hide'] = 'Ocultar';
+$string['view_recording_list_actionbar_processing'] = 'Procesando';
+$string['view_recording_list_actionbar_publish'] = 'Publicar';
+$string['view_recording_list_actionbar_publishing'] = 'Publicando';
+$string['view_recording_list_actionbar_show'] = 'Mostrar';
+$string['view_recording_list_actionbar_unpublish'] = 'Ocultar';
+$string['view_recording_list_actionbar_unpublishing'] = 'Ocultando';
+$string['view_recording_list_activity'] = 'Actividad';
+$string['view_recording_list_course'] = 'Curso';
+$string['view_recording_list_date'] = 'Fecha';
+$string['view_recording_list_description'] = 'Descripción';
+$string['view_recording_list_duration'] = 'Duración';
+$string['view_recording_list_recording'] = 'Grabando';
+$string['view_recording_modal_button'] = 'Aplicar';
+$string['view_recording_modal_title'] = 'Configurar valores para grabación';
+$string['view_recording_name'] = 'Nombre';
+$string['view_recording_publish_link_error'] = 'Este enlace no puede re-publicarse porque la grabación original está no-publicada';
+$string['view_recording_recording'] = 'Grabación';
+$string['view_recording_tags'] = 'Marcas (Tags)';
+$string['view_recording_unpublish_confirmation'] = '¿Está seguro de des-publicar esta {$a}?';
+$string['view_recording_unpublish_confirmation_warning_p'] = 'Esta grabación tiene {$a} enlaces asociados que fueron importados en diferentes cursos o actividades. Si la grabación es des-publicada, esos enlaces también serán des-publicados';
+$string['view_recording_unpublish_confirmation_warning_s'] = 'Esta grabación tiene {$a} enlace asociado que fue importado en un diferente cursos o actividad. Si la grabación es des-publicada, ese enlace también será des-publicado';
+$string['view_section_title_presentation'] = 'Archivo de presentación';
+$string['view_section_title_recordings'] = 'Grabaciones';
