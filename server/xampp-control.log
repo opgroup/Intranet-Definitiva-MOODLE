@@ -200,3 +200,127 @@
 17:33:21  [main] 	Deinitializing Modules
 17:33:21  [main] 	Deinitializing Control Panel
 
+5:22:33  [main] 	Initializing Control Panel
+5:22:33  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+5:22:33  [main] 	XAMPP Version: 7.0.9
+5:22:33  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+5:22:33  [main] 	You are not running with administrator rights! This will work for
+5:22:33  [main] 	most application stuff but whenever you do something with services
+5:22:33  [main] 	there will be a security dialogue or things will break! So think 
+5:22:33  [main] 	about running this application with administrator rights!
+5:22:33  [main] 	XAMPP Installation Directory: "e:\pagina 2\server\"
+5:22:33  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+5:22:33  [main] 	Checking for prerequisites
+5:22:33  [main] 	All prerequisites found
+5:22:33  [main] 	Initializing Modules
+5:22:33  [Apache] 	Problem detected!
+5:22:33  [Apache] 	Port 80 in use by "Unable to open process" with PID 3584!
+5:22:33  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:22:33  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:22:33  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:22:33  [Apache] 	Problem detected!
+5:22:33  [Apache] 	Port 443 in use by "Unable to open process" with PID 3584!
+5:22:33  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:22:33  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:22:33  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:22:33  [mysql] 	Problem detected!
+5:22:33  [mysql] 	Port 3306 in use by "Unable to open process"!
+5:22:33  [mysql] 	MySQL WILL NOT start without the configured ports free!
+5:22:33  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+5:22:33  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+5:22:33  [main] 	The FileZilla module is disabled
+5:22:33  [main] 	The Mercury module is disabled
+5:22:33  [Tomcat] 	Problem detected: Tomcat Not Found!
+5:22:33  [Tomcat] 	Disabling Tomcat buttons
+5:22:33  [Tomcat] 	Run this program from your XAMPP root directory!
+5:22:33  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+5:22:33  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+5:22:33  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+5:22:33  [main] 	Enabling autostart for module "Apache"
+5:22:33  [main] 	Enabling autostart for module "MySQL"
+5:22:33  [main] 	Starting Check-Timer
+5:22:33  [main] 	Control Panel Ready
+5:22:34  [Apache] 	Autostart active: starting...
+5:22:34  [Apache] 	Problem detected!
+5:22:34  [Apache] 	Port 80 in use by "Unable to open process" with PID 3584!
+5:22:34  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:22:34  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:22:34  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:22:34  [Apache] 	Problem detected!
+5:22:34  [Apache] 	Port 443 in use by "Unable to open process" with PID 3584!
+5:22:34  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:22:34  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:22:34  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:22:34  [Apache] 	Attempting to start Apache app...
+5:22:34  [mysql] 	Autostart active: starting...
+5:22:34  [mysql] 	Problem detected!
+5:22:34  [mysql] 	Port 3306 in use by "Unable to open process"!
+5:22:34  [mysql] 	MySQL WILL NOT start without the configured ports free!
+5:22:34  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+5:22:34  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+5:22:34  [mysql] 	Attempting to start MySQL app...
+5:22:44  [main] 	Deinitializing Modules
+5:22:44  [main] 	Deinitializing Control Panel
+
+5:20:59  [main] 	Initializing Control Panel
+5:20:59  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+5:20:59  [main] 	XAMPP Version: 7.0.9
+5:20:59  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+5:20:59  [main] 	You are not running with administrator rights! This will work for
+5:20:59  [main] 	most application stuff but whenever you do something with services
+5:20:59  [main] 	there will be a security dialogue or things will break! So think 
+5:20:59  [main] 	about running this application with administrator rights!
+5:20:59  [main] 	XAMPP Installation Directory: "e:\pagina 2\server\"
+5:20:59  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+5:20:59  [main] 	Checking for prerequisites
+5:20:59  [main] 	All prerequisites found
+5:20:59  [main] 	Initializing Modules
+5:20:59  [Apache] 	Problem detected!
+5:20:59  [Apache] 	Port 80 in use by "Unable to open process" with PID 3036!
+5:20:59  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:20:59  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:20:59  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:20:59  [Apache] 	Problem detected!
+5:20:59  [Apache] 	Port 443 in use by "Unable to open process" with PID 3036!
+5:20:59  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:20:59  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:20:59  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:20:59  [mysql] 	Problem detected!
+5:20:59  [mysql] 	Port 3306 in use by "Unable to open process"!
+5:20:59  [mysql] 	MySQL WILL NOT start without the configured ports free!
+5:20:59  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+5:20:59  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+5:20:59  [main] 	The FileZilla module is disabled
+5:20:59  [main] 	The Mercury module is disabled
+5:20:59  [Tomcat] 	Problem detected: Tomcat Not Found!
+5:20:59  [Tomcat] 	Disabling Tomcat buttons
+5:20:59  [Tomcat] 	Run this program from your XAMPP root directory!
+5:20:59  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+5:20:59  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+5:20:59  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+5:20:59  [main] 	Enabling autostart for module "Apache"
+5:20:59  [main] 	Enabling autostart for module "MySQL"
+5:20:59  [main] 	Starting Check-Timer
+5:20:59  [main] 	Control Panel Ready
+5:20:59  [Apache] 	Autostart active: starting...
+5:20:59  [Apache] 	Problem detected!
+5:20:59  [Apache] 	Port 80 in use by "Unable to open process" with PID 3036!
+5:20:59  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:20:59  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:20:59  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:20:59  [Apache] 	Problem detected!
+5:20:59  [Apache] 	Port 443 in use by "Unable to open process" with PID 3036!
+5:20:59  [Apache] 	Apache WILL NOT start without the configured ports free!
+5:20:59  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+5:20:59  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+5:20:59  [Apache] 	Attempting to start Apache app...
+5:21:00  [mysql] 	Autostart active: starting...
+5:21:00  [mysql] 	Problem detected!
+5:21:00  [mysql] 	Port 3306 in use by "Unable to open process"!
+5:21:00  [mysql] 	MySQL WILL NOT start without the configured ports free!
+5:21:00  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+5:21:00  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+5:21:00  [mysql] 	Attempting to start MySQL app...
+5:22:51  [main] 	Deinitializing Modules
+5:22:51  [main] 	Deinitializing Control Panel
+
